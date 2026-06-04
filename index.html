@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Anirban Biswas - Portfolio Website. Electronics & Telecommunication Engineering undergraduate at COEP Tech, software development intern at NIC, and intelligent systems researcher.">
+  <title>Anirban Biswas | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body class="dot-grid">
+
+  <!-- --- NAVIGATION --- -->
+  <header id="header">
+    <div class="container">
+      <div class="nav-wrapper">
+        <a href="#hero" class="logo">Anirban Biswas</a>
+        
+        <nav class="nav-menu">
+          <a href="#about" class="nav-link">About</a>
+          <a href="#experience" class="nav-link">Experience</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#leadership" class="nav-link">Leadership</a>
+          <a href="#achievements" class="nav-link">Achievements</a>
+          <a href="#resume" class="nav-link">Resume</a>
+          <a href="#connect" class="nav-link">Contact</a>
+        </nav>
+
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle Theme">
+          <svg class="theme-toggle-icon moon-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+          <svg class="theme-toggle-icon sun-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.22" x2="5.64" y2="17.78"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- --- HERO --- -->
+    <section id="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="fade-up">
+            
+            <h1 class="hero-title">Anirban <span>Biswas</span></h1>
+            
+            <p class="hero-affiliation">
+              COEP'27 <span class="sep">|</span> National Informatics Centre <span class="sep">|</span> Intelligent Systems Lab (IISER Pune) <span class="sep">|</span> Team Octane Racing
+            </p>
+            
+            <p class="hero-desc">
+              Passionate about building at the intersection of intelligent systems, embedded technologies, software engineering, and applied research.
+            </p>
+            
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">
+                View My Work
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+              </a>
+              <a href="#connect" class="btn btn-secondary">Get in Touch</a>
+            </div>
+            
+            <div class="hero-footer">
+              <div class="social-links">
+                <a href="https://linkedin.com/in/anirban-biswas" target="_blank" aria-label="LinkedIn" class="social-btn">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+                </a>
+                <a href="mailto:anirbanb23.extc@coeptech.ac.in" aria-label="Email" class="social-btn">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                </a>
+                <a href="https://github.com/abSenpai" target="_blank" aria-label="GitHub" class="social-btn">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                </a>
+              </div>
+              
+              <div class="hero-divider"></div>
+              <span class="hero-meta-text">B.Tech E&TC &bull; Pune, India</span>
+            </div>
+          </div>
+          
+          <div class="hero-photo-wrapper fade-in">
+            <div class="hero-photo-circle">
+              <!-- Using standard premium SVG placeholder or user photo -->
+              <img src="profile_photo.jpg" alt="Anirban Biswas">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- ABOUT / JOURNEY --- -->
+    <section id="about">
+      <div class="container">
+        <div class="section-header fade-up">
+          <p class="section-label">Background</p>
+          <h2 class="section-title">My Journey</h2>
+        </div>
+        
+        <div class="about-grid">
+          <div class="about-text fade-up">
+            <p>
+              I'm an Electronics & Telecommunication undergraduate at COEP Technological University with a growing interest in intelligent systems, embedded technologies, software development, and research. I enjoy exploring ambitious ideas, building practical solutions, and working on projects that bridge technology with real-world impact.
+            </p>
+            <p>
+              Beyond academics, I've contributed to research, engineering, and innovation initiatives through the National Informatics Centre, Intelligent Systems Lab (IISER Pune), Team Octane Racing, COEP Tech E-Cell, and IET Pune. These experiences continue to shape my approach to problem-solving, collaboration, and technology-driven innovation.
+            </p>
+            
+            <div class="about-cards">
+              <!-- Education Card -->
+              <div class="card about-mini-card">
+                <div class="about-mini-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                </div>
+                <div>
+                  <p class="about-mini-label">Education</p>
+                  <h3 class="about-mini-title">B.Tech (Electronics & Telecommunication Engineering)</h3>
+                  <p class="about-mini-sub">COEP Technological University, Pune</p>
+                  <p class="about-mini-meta">2023 &ndash; 2027 &bull; CGPA: 7.86/10</p>
+                </div>
+              </div>
+              
+              <!-- Research Card -->
+              <div class="card about-mini-card">
+                <div class="about-mini-icon">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M6.5 21h11M8 10l-2.5 7a2 2 0 0 0 1.9 2.5h9.2a2 2 0 0 0 1.9-2.5L16 10M8 3v7M16 3v7"/></svg>
+                </div>
+                <div>
+                  <p class="about-mini-label">Research & Innovation</p>
+                  <h3 class="about-mini-title">Contributing to Intelligent Systems and Applied Research</h3>
+                  <p class="about-mini-sub">Embedded systems, automation, and emerging technologies</p>
+                  <p class="about-mini-meta">Academic & industry collaborations</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="about-image-showcase fade-up">
+            <img src="coep_campus.jpg" alt="COEP Technological University Campus">
+            <div class="about-image-overlay">
+              <h3 class="about-image-title">COEP Technological University</h3>
+              <p class="about-image-desc">Established 1854 &bull; Pune's Historic Engineering Campus</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- EXPERIENCE --- -->
+    <section id="experience">
+      <div class="container">
+        <div class="section-header fade-up">
+          <p class="section-label">Work History</p>
+          <h2 class="section-title">Professional Experience</h2>
+          <p class="section-subtitle">Building expertise through research, software development, and engineering innovation.</p>
+        </div>
+        
+        <div class="timeline">
+          <!-- Item 1 (Active) -->
+          <div class="timeline-item active fade-up">
+            <div class="timeline-marker">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            </div>
+            
+            <div class="card timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">
+                    Software Development Intern
+                    <span class="tag tag-accent" style="color: #22c55e; border-color: rgba(34, 197, 94, 0.25); background: rgba(34, 197, 94, 0.08);">Active</span>
+                  </h3>
+                  <div class="timeline-org">National Informatics Centre (MeitY)</div>
+                </div>
+                <div>
+                  <div class="timeline-period">May 2026 &ndash; Present</div>
+                  <div class="timeline-loc">Agartala, India</div>
+                </div>
+              </div>
+              
+              <p class="timeline-desc">
+                Contributing to the development of NextGen HRMS, a large-scale government platform, while working across application architecture, backend services, frontend development, and deployment workflows. Gaining hands-on experience with enterprise software engineering and scalable system design.
+              </p>
+              
+              <div class="timeline-tags">
+                <span class="tag tag-accent">Java</span>
+                <span class="tag tag-accent">Spring Boot</span>
+                <span class="tag tag-accent">React</span>
+                <span class="tag tag-accent">PostgreSQL</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Item 2 -->
+          <div class="timeline-item fade-up">
+            <div class="timeline-marker">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M6.5 21h11M8 10l-2.5 7a2 2 0 0 0 1.9 2.5h9.2a2 2 0 0 0 1.9-2.5L16 10M8 3v7M16 3v7"/></svg>
+            </div>
+            
+            <div class="card timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Research Intern</h3>
+                  <div class="timeline-org">Intelligent Systems Lab, IISER Pune</div>
+                </div>
+                <div>
+                  <div class="timeline-period">Feb 2025 &ndash; May 2025</div>
+                  <div class="timeline-loc">Pune, India</div>
+                </div>
+              </div>
+              
+              <p class="timeline-desc">
+                Worked on AI-driven pattern recognition and research analytics, applying machine learning techniques to scientific datasets. Collaborated on data analysis, model evaluation, and research workflows to extract meaningful insights from complex data.
+              </p>
+              
+              <div class="timeline-tags">
+                <span class="tag tag-accent">Python</span>
+                <span class="tag tag-accent">Machine Learning</span>
+                <span class="tag tag-accent">Data Analysis</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Item 3 -->
+          <div class="timeline-item fade-up">
+            <div class="timeline-marker">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M15 2v2M9 2v2M2 9h2M2 15h2M22 9h-2M22 15h-2M15 22v-2M9 22v-2"/></svg>
+            </div>
+            
+            <div class="card timeline-card">
+              <div class="timeline-header">
+                <div>
+                  <h3 class="timeline-role">Vehicle Technician</h3>
+                  <div class="timeline-org">Team Octane Racing</div>
+                </div>
+                <div>
+                  <div class="timeline-period">Jan 2025 &ndash; Sep 2025</div>
+                  <div class="timeline-loc">Pune, India</div>
+                </div>
+              </div>
+              
+              <p class="timeline-desc">
+                Contributed to the development and validation of Formula Student electric race vehicles, supporting system integration, testing, diagnostics, and performance evaluation within a multidisciplinary engineering team.
+              </p>
+              
+              <div class="timeline-tags">
+                <span class="tag tag-accent">Embedded Systems</span>
+                <span class="tag tag-accent">EV</span>
+                <span class="tag tag-accent">Systems Integration</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- PROJECTS --- -->
+    <section id="projects">
+      <div class="container">
+        <div class="section-header fade-up">
+          <p class="section-label">Work Showcase</p>
+          <h2 class="section-title">Featured Projects</h2>
+          <p class="section-subtitle">Showcasing work across software engineering, intelligent systems, and applied research.</p>
+        </div>
+        
+        <!-- Large Featured Project -->
+        <div class="projects-featured fade-up">
+          <div class="card featured-card">
+            <div class="featured-img-wrapper">
+              <img src="nextgen_hrms.jpg" alt="NextGen HRMS Platform">
+            </div>
+            
+            <div class="featured-content">
+              <div>
+                <p class="project-context">National Informatics Centre (MeitY) &bull; Software Engineering</p>
+                <h3 class="project-title">NextGen HRMS &ndash; Training & Learning Management Module</h3>
+                <p class="project-date">May 2026 &ndash; Present</p>
+                <p class="project-desc">
+                  Contributing to the development of a large-scale government HRMS platform by building training and learning management workflows. Working across enterprise software architecture, backend services, frontend development, and deployment pipelines to support digital transformation initiatives.
+                </p>
+              </div>
+              
+              <div>
+                <div class="timeline-tags" style="margin-bottom: 24px;">
+                  <span class="tag tag-accent">Java</span>
+                  <span class="tag tag-accent">Spring Boot</span>
+                  <span class="tag tag-accent">React</span>
+                  <span class="tag tag-accent">PostgreSQL</span>
+                  <span class="tag tag-accent">REST APIs</span>
+                </div>
+                
+                <div class="project-actions">
+                  <a href="https://drive.google.com/drive/folders/1eOIwZA-OZsVpgoIEEo42s-zND0sTQkI0?usp=sharing" target="_blank" class="btn btn-primary btn-sm">
+                    View Reports
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 6px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14 21 3"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Grid of 2 Smaller Projects -->
+        <div class="projects-grid">
+          <!-- Project 2 -->
+          <div class="card project-card fade-up">
+            <div class="project-card-img">
+              <img src="ai_pattern_recognition.jpg" alt="AI Pattern Recognition & Analytics">
+            </div>
+            <div class="project-card-body">
+              <div>
+                <p class="project-context">Intelligent Systems Lab, IISER Pune &bull; AI Research</p>
+                <h3 class="project-title">AI-Driven Pattern Recognition & Research Analytics</h3>
+                <p class="project-date">Feb 2025 &ndash; May 2025</p>
+                <p class="project-desc">
+                  Applied machine learning techniques to scientific datasets for pattern recognition, research analytics, and model evaluation. Contributed to data-driven approaches for extracting meaningful insights from complex datasets.
+                </p>
+              </div>
+              
+              <div>
+                <div class="timeline-tags" style="margin-bottom: 24px;">
+                  <span class="tag tag-accent">Python</span>
+                  <span class="tag tag-accent">Machine Learning</span>
+                  <span class="tag tag-accent">Data Analysis</span>
+                  <span class="tag tag-accent">Research</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://drive.google.com/drive/folders/1sVK2FlnXXBQNZlKnI6A2GB3ksJ0cl1mC?usp=sharing" target="_blank" class="btn btn-primary btn-sm">
+                    View Reports
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 6px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14 21 3"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Project 3 -->
+          <div class="card project-card fade-up">
+            <div class="project-card-img">
+              <img src="rf_energy_harvesting.jpg" alt="RF Energy Harvesting Module">
+            </div>
+            <div class="project-card-body">
+              <div>
+                <p class="project-context">Research Project &bull; Embedded Systems</p>
+                <h3 class="project-title">RF Energy Harvesting Module</h3>
+                <p class="project-date">2025</p>
+                <p class="project-desc">
+                  Designed and developed an RF energy harvesting prototype utilizing antenna design, impedance matching, and rectification techniques to convert ambient RF signals into usable electrical power.
+                </p>
+              </div>
+              
+              <div>
+                <div class="timeline-tags" style="margin-bottom: 24px;">
+                  <span class="tag tag-accent">RF Engineering</span>
+                  <span class="tag tag-accent">Antenna Design</span>
+                  <span class="tag tag-accent">Embedded Systems</span>
+                </div>
+                <div class="project-actions">
+                  <a href="https://drive.google.com/drive/folders/1IZdv2-4MUKKMoDuHuj5i8wZSpXhspzj2" target="_blank" class="btn btn-primary btn-sm">
+                    View Reports
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 6px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14 21 3"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- LEADERSHIP / POSITIONS --- -->
+    <section id="leadership">
+      <div class="container">
+        <div class="section-header fade-up">
+          <p class="section-label">Leadership</p>
+          <h2 class="section-title">Positions of Responsibility</h2>
+          <p class="section-subtitle">Contributing across engineering teams, research initiatives, and professional organizations.</p>
+        </div>
+        
+        <div class="leadership-grid">
+          <!-- Item 1 -->
+          <div class="card leadership-card fade-up">
+            <div class="leadership-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M15 2v2M9 2v2M2 9h2M2 15h2M22 9h-2M22 15h-2M15 22v-2M9 22v-2"/></svg>
+            </div>
+            <div class="leadership-body">
+              <div class="leadership-header">
+                <h3 class="leadership-role">Vehicle Technician</h3>
+                <span class="tag tag-engineering">Engineering Leadership</span>
+              </div>
+              <div class="leadership-org">Team Octane Racing &bull; COEP Technological University</div>
+              <div class="leadership-meta">Jan 2025 &ndash; Sep 2025 &bull; Pune, India</div>
+              <p class="leadership-desc">
+                Contributed to the development and validation of Formula Student electric race vehicles, collaborating on system integration, diagnostics, testing, and performance evaluation.
+              </p>
+            </div>
+          </div>
+          
+          <!-- Item 2 -->
+          <div class="card leadership-card fade-up">
+            <div class="leadership-icon">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2M9 7a4 4 0 1 0 8 0 4 4 0 0 0-8 0M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+            </div>
+            <div class="leadership-body">
+              <div class="leadership-header">
+                <h3 class="leadership-role">Associate Member</h3>
+                <span class="tag tag-technical">Technical Leadership</span>
+              </div>
+              <div class="leadership-org">Institution of Engineering and Technology (IET Pune)</div>
+              <div class="leadership-meta">Sep 2023 &ndash; Present &bull; Pune, India</div>
+              <p class="leadership-desc">
+                Engaged in engineering and technical activities while contributing to applied projects, research-oriented work, and collaborative technical initiatives.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- ACHIEVEMENTS --- -->
+    <section id="achievements">
+      <div class="container">
+        <div class="section-header fade-up">
+          <p class="section-label">Recognition</p>
+          <h2 class="section-title">Major Achievements</h2>
+          <p class="section-subtitle">Recognition for research, engineering, innovation, and academic excellence.</p>
+        </div>
+        
+        <div class="achievements-grid">
+          <!-- Card 1 -->
+          <div class="card achievement-card fade-up">
+            <div class="achievement-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            </div>
+            <h3 class="achievement-highlight">National Informatics Centre</h3>
+            <p class="achievement-sub">Software Development Intern</p>
+            <p class="achievement-desc">Contributing to enterprise-grade government software systems through the NextGen HRMS initiative.</p>
+          </div>
+          
+          <!-- Card 2 -->
+          <div class="card achievement-card fade-up">
+            <div class="achievement-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3h6M6.5 21h11M8 10l-2.5 7a2 2 0 0 0 1.9 2.5h9.2a2 2 0 0 0 1.9-2.5L16 10M8 3v7M16 3v7"/></svg>
+            </div>
+            <h3 class="achievement-highlight">IISER Pune</h3>
+            <p class="achievement-sub">Research Intern</p>
+            <p class="achievement-desc">Worked on AI-driven pattern recognition and research analytics using machine learning techniques.</p>
+          </div>
+          
+          <!-- Card 3 -->
+          <div class="card achievement-card fade-up">
+            <div class="achievement-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+            </div>
+            <h3 class="achievement-highlight">7.86</h3>
+            <p class="achievement-sub">COEP Technological University</p>
+            <p class="achievement-desc">CGPA 7.86/10 in Electronics & Telecommunication Engineering.</p>
+          </div>
+          
+          <!-- Card 4 -->
+          <div class="card achievement-card fade-up">
+            <div class="achievement-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            </div>
+            <h3 class="achievement-highlight">Academic Excellence</h3>
+            <p class="achievement-sub">ICSE 95.2% &bull; CBSE 92.64%</p>
+            <p class="achievement-desc">Maintained consistent academic performance across major educational milestones.</p>
+          </div>
+        </div>
+        
+        <!-- Stats row -->
+        <div class="stats-box fade-up">
+          <div class="stat-item">
+            <div class="stat-num">3+</div>
+            <div class="stat-label">Featured Projects</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">2</div>
+            <div class="stat-label">Research & Industry Internships</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">1</div>
+            <div class="stat-label">Research Publication</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-num">95%+</div>
+            <div class="stat-label">Academic Performance</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- RESUME --- -->
+    <section id="resume">
+      <div class="container">
+        <div class="section-header fade-up">
+          <p class="section-label">Documents</p>
+          <h2 class="section-title">Resume</h2>
+          <p class="section-subtitle">Download my complete resume showcasing education, research, engineering experience, projects, and technical skills.</p>
+        </div>
+        
+        <div class="resume-grid">
+          <!-- Resume Card -->
+          <div class="card fade-up">
+            <div style="margin-bottom: 24px;">
+              <div class="achievement-icon" style="margin-bottom: 16px;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+              </div>
+              <h3 style="font-size: 18px; font-weight: 600; color: var(--text); margin-bottom: 4px;">Professional Resume</h3>
+              <p style="font-family: var(--font-mono); font-size: 11px; color: var(--text-subtle);">Updated June 2026</p>
+            </div>
+            
+            <div class="resume-summary-list">
+              <div class="resume-summary-item">
+                <span class="resume-summary-label">Education</span>
+                <span class="resume-summary-val">COEP Technological University</span>
+              </div>
+              <div class="resume-summary-item">
+                <span class="resume-summary-label">Experience</span>
+                <span class="resume-summary-val">NIC &bull; IISER Pune &bull; Team Octane</span>
+              </div>
+              <div class="resume-summary-item">
+                <span class="resume-summary-label">Skills</span>
+                <span class="resume-summary-val">Embedded Systems &bull; AI &bull; Software Dev</span>
+              </div>
+              <div class="resume-summary-item">
+                <span class="resume-summary-label">Languages</span>
+                <span class="resume-summary-val">English &bull; Bengali &bull; Hindi &bull; Japanese</span>
+              </div>
+            </div>
+            
+            <a href="https://drive.google.com" target="_blank" class="btn btn-primary" style="display: flex; justify-content: center; width: 100%;">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 4px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14 21 3"/></svg>
+              View on Google Drive
+            </a>
+          </div>
+          
+          <div style="display: flex; flex-direction: column; gap: 24px;">
+            <!-- Checklist Card -->
+            <div class="card resume-checklist fade-up" style="flex: 1;">
+              <h3 style="font-size: 16px; font-weight: 600; color: var(--text); margin-bottom: 8px;">What's Included</h3>
+              <div class="checklist-item">
+                <div class="checklist-dot">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <span class="checklist-text">Academic Qualifications</span>
+              </div>
+              <div class="checklist-item">
+                <div class="checklist-dot">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <span class="checklist-text">Research & Industry Experience</span>
+              </div>
+              <div class="checklist-item">
+                <div class="checklist-dot">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <span class="checklist-text">Featured Engineering Projects</span>
+              </div>
+              <div class="checklist-item">
+                <div class="checklist-dot">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <span class="checklist-text">Technical Skills & Coursework</span>
+              </div>
+              <div class="checklist-item">
+                <div class="checklist-dot">
+                  <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+                </div>
+                <span class="checklist-text">Certifications & Achievements</span>
+              </div>
+            </div>
+            
+            <!-- Quick Contact Card -->
+            <div class="card resume-contacts fade-up">
+              <h3 style="font-size: 12px; font-family: var(--font-mono); color: var(--text-muted); margin-bottom: 12px;">Quick Contact</h3>
+              
+              <div class="resume-contact-row">
+                <div class="resume-contact-left">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                  <span class="resume-contact-label">Email</span>
+                </div>
+                <a href="mailto:anirbanb23.extc@coeptech.ac.in" class="resume-contact-val">anirbanb23.extc@coeptech.ac.in</a>
+              </div>
+              
+              <div class="resume-contact-row">
+                <div class="resume-contact-left">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+                  <span class="resume-contact-label">LinkedIn</span>
+                </div>
+                <a href="https://linkedin.com/in/anirban-biswas" target="_blank" class="resume-contact-val">linkedin.com/in/anirban-biswas</a>
+              </div>
+              
+              <div class="resume-contact-row">
+                <div class="resume-contact-left">
+                  <svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+                  <span class="resume-contact-label">GitHub</span>
+                </div>
+                <a href="https://github.com/abSenpai" target="_blank" class="resume-contact-val">github.com/abSenpai</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- --- CONNECT --- -->
+    <section id="connect">
+      <div class="container">
+        <div class="section-header fade-up">
+          <p class="section-label">Outreach</p>
+          <h2 class="section-title">Let's Connect</h2>
+          <p class="section-subtitle">Interested in research collaborations, software development, embedded systems, or engineering projects?</p>
+        </div>
+        
+        <div class="connect-grid">
+          <div class="fade-up">
+            <h3 style="font-size: 22px; font-weight: 600; color: var(--text); margin-bottom: 32px;">Get In Touch</h3>
+            
+            <div class="connect-links">
+              <!-- Link 1 -->
+              <a href="mailto:anirbanb23.extc@coeptech.ac.in" class="connect-link-card">
+                <div class="connect-link-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                </div>
+                <div>
+                  <p class="connect-link-label">Email</p>
+                  <p class="connect-link-val">anirbanb23.extc@coeptech.ac.in</p>
+                </div>
+                <div class="connect-link-arrow">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+              </a>
+              
+              <!-- Link 2 -->
+              <a href="https://linkedin.com/in/anirban-biswas" target="_blank" class="connect-link-card">
+                <div class="connect-link-icon">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+                </div>
+                <div>
+                  <p class="connect-link-label">LinkedIn</p>
+                  <p class="connect-link-val">Connect professionally</p>
+                </div>
+                <div class="connect-link-arrow">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+              </a>
+            </div>
+            
+            <div>
+              <p class="interests-label">Areas of Interest</p>
+              <div class="interests-list">
+                <span class="interest-tag">Artificial Intelligence & Intelligent Systems</span>
+                <span class="interest-tag">Software Development & System Design</span>
+                <span class="interest-tag">Embedded Systems & IoT</span>
+                <span class="interest-tag">Research, Innovation & Emerging Technologies</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Connect Profile Card -->
+          <div class="connect-profile-card fade-up">
+            <div class="connect-profile-img-wrapper">
+              <div class="connect-profile-img">
+                <img src="profile_photo.jpg" alt="Anirban Biswas">
+              </div>
+              <div class="connect-profile-badge">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+              </div>
+            </div>
+            <h3 class="connect-profile-name">Anirban Biswas</h3>
+            <p class="connect-profile-title">
+              COEP'27 <span class="sep">|</span> National Informatics Centre<br>
+              Intelligent Systems Lab (IISER Pune)<br>
+              Team Octane Racing
+            </p>
+            <a href="https://linkedin.com/in/anirban-biswas" target="_blank" class="btn btn-primary" style="display: inline-flex; align-items: center; justify-content: center; width: 100%; padding: 12px 24px; font-size: 14px;">
+              View LinkedIn Profile
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-left: 6px;"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14 21 3"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- --- FOOTER --- -->
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">Anirban Biswas</div>
+        <p class="footer-subtitle">
+          COEP'27 <span class="sep">|</span> National Informatics Centre<br>
+          Intelligent Systems Lab (IISER Pune) <span class="sep">|</span> Team Octane Racing
+        </p>
+        
+        <div class="footer-socials">
+          <a href="https://linkedin.com/in/anirban-biswas" target="_blank" aria-label="LinkedIn" class="social-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"/></svg>
+          </a>
+          <a href="mailto:anirbanb23.extc@coeptech.ac.in" aria-label="Email" class="social-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          </a>
+          <a href="https://github.com/abSenpai" target="_blank" aria-label="GitHub" class="social-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+        </div>
+        
+        <p class="footer-copy">
+          &copy; 2026 Anirban Biswas. All Rights Reserved. Exploring intelligent systems, software development, and emerging technologies.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
